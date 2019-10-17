@@ -3,8 +3,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <ProjectGuid>{BA72CCE0-A9FB-4995-B496-7FEC5C87B85B}</ProjectGuid>
     <RootNamespace>Xceed.Wpf.AvalonDock.Themes</RootNamespace>
-    <TargetFramework>net40</TargetFramework>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <AssemblyTitle>Xceed Toolkit for WPF - AvalonDock Aero Theme</AssemblyTitle>
     <Company>Xceed Software Inc.</Company>
@@ -22,14 +21,6 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="WindowsBase" />
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj" />
   </ItemGroup>

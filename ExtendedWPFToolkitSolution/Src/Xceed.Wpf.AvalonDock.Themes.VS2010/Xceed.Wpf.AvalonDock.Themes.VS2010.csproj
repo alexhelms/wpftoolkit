@@ -3,8 +3,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <ProjectGuid>{B3FC3E21-5F2D-4581-AEA2-59F671CFFC21}</ProjectGuid>
     <RootNamespace>Xceed.Wpf.AvalonDock.Themes</RootNamespace>
-    <TargetFramework>net40</TargetFramework>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ExpressionBlendVersion>4.0.20901.0</ExpressionBlendVersion>
     <AssemblyTitle>Xceed Toolkit for WPF - AvalonDock VS2010 Theme</AssemblyTitle>
@@ -23,14 +22,6 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="WindowsBase" />
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\DockAnchorableBottom.png" />
     <Resource Include="Images\DockAnchorableLeft.png" />
